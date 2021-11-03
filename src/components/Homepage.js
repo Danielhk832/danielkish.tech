@@ -11,6 +11,7 @@ import skills from "../assets/SkillsArray";
 import SkillCards from "./SkillCards";
 import { Grid } from "@mui/material";
 import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
+import Projects from "./Projects";
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -63,6 +64,7 @@ const Homepage = (props) => {
           </Grid>
         </Item>
       </Box>
+      <Projects />
     </div>
   );
 };
