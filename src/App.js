@@ -1,17 +1,23 @@
 import "./App.css";
-import { Button, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
-import pdf from "./assets/resume.pdf";
+import React from "react";
+import { Route, Link, Switch } from "react-router-dom";
+import Homepage from "./components/Homepage";
+import NavBar from "./components/Navbar.js";
+import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
+
+const lightTheme = createTheme({ palette: { mode: "light" } });
 
 function App() {
-  const onResumeClick = () => {
-    window.open(pdf);
-  };
-
   return (
     <div className="App">
-      <Typography variant="h1">Hi welcome hi hello</Typography>
-      <Button onClick={onResumeClick}>click me BABYYYY</Button>
+      <ThemeProvider theme={lightTheme}>
+        <NavBar />
+        <Switch>
+          <Route exact path={"/"}>
+            <Homepage />
+          </Route>
+        </Switch>
+      </ThemeProvider>
     </div>
   );
 }
