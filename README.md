@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 "need to add this into the readme to get a commit up on my page"
-
+gotta push some changes up boiii
 In the project directory, you can run:
 
 ### `npm start`
