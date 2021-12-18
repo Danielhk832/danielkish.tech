@@ -8,8 +8,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-gotta get them commits up
-
 ### `npm start`
 
 Runs the app in the development mode.
