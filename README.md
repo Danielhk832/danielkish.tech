@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 "need to add this into the readme to get a commit up on my page"
 
-In the project directory, you can
+In the project directory, you can make
 
 ### `npm start`
 
